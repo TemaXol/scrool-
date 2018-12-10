@@ -1,0 +1,106 @@
+
+
+.carousel-list IMG { position: relative; }
+.three { top: -50px; left: 45px; z-index: 1; }
+.seven { left: -120px; top: -25px; z-index: 2; }
+.ace { left: -295px; z-index: 5; }
+
+.card {
+
+}
+.three {
+  width: 10%;
+  top: -50px;
+  left: 45px;
+  z-index: 1;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-name: ;
+  animation-timing-function: linear;
+  position: relative;
+}
+
+.seven {
+  width: 12%;
+  left: -50px;
+  top: -25px; 
+  z-index: 2;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-name: ;
+  animation-timing-function: linear;
+  position: relative;
+
+}   
+.ace {
+  width: 14%;
+  left: -130px; 
+  z-index: 3;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-name: ace;
+  animation-timing-function: linear;
+  position: relative;
+}
+
+@keyframes  three {
+  0% {
+
+ }
+  25% {  
+  width: 14%;
+  
+
+  }
+  50% {
+
+
+ }
+  100% {
+
+
+
+  }
+}
+@keyframes seven {
+  0% {
+
+}
+  25% {  
+ 
+  }
+  50% {
+  width: 14%;
+
+
+  }
+  100% {
+
+
+
+  }
+}
+@keyframes ace {
+  0% {
+  	left: -205px;
+
+}
+  25% { 
+  left: -385px; 
+  z-index: 1;
+  width: 10%;
+  }
+  50% {
+
+  left: -250px;
+  width: 12%;
+  }
+  75% {
+   width: 13%;
+  }
+  100% {
+
+  left: -130px; 
+ 
+  }
+}
